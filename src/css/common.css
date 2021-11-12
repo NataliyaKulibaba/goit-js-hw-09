@@ -19,3 +19,30 @@ img {
 .valid {
   background-color: green;
 }
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.field:not(:last-child) {
+  margin-right: 30px;
+}
+.value {
+  font-weight: bold;
+  font-size: xx-large;
+  color: red;
+}
+#timer {
+  display: flex;
+  justify-content: center;
+}
+#datetime-picker {
+  height: 40px;
+  border-radius: 5px;
+}
+button {
+  width: 60px;
+  margin-left: 10px;
+  border-radius: 5px;
+}

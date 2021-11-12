@@ -50,19 +50,16 @@ const timer = {
     if (this.isActive) {
       return;
     }
-    console.log('click');
     
     const startTime = selectedDate;
 
-    // const startTime = inputEl.value;
     this.isActive = true;
+    btnStartEl.classList.remove('valid');
     console.log(startTime);
   
     this.intervalId = setInterval(() => {
       const currentTime = Date.now();
-
       const deltaTime = startTime - currentTime;
-
       const time = convertMs(deltaTime);
 
       updateClockFace(time);
