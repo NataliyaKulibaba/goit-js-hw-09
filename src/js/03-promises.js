@@ -21,7 +21,7 @@ function setData(event) {
     position,
   };
   
-  let someTime = delay;
+  let someTime = delay-step;
   
   for (let i = 1; i <= position; i += 1) {
     someTime += step;   
