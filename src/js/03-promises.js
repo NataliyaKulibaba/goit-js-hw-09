@@ -1,5 +1,6 @@
 'use strict'
 
+
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const formEl = document.querySelector(".form");
